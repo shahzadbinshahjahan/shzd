@@ -8,7 +8,7 @@ const siteConfig: SiteConfig = {
     },
     title: 'Shahzad bin Shahjahan',
     subtitle: 'Tea fueled Engineer',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    description: 'Software Engineer',
     image: {
         src: '/shzd.jpg',
         alt: 'Shahzad bin Shahjahan'
