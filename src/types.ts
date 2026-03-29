@@ -7,6 +7,7 @@ export type ImageInput = {
 export type Link = {
     text: string;
     href: string;
+    target?: '_blank' | '_self' | '_parent' | '_top';
 };
 
 export type Hero = {

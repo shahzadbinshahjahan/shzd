@@ -66,6 +66,11 @@ const siteConfig: SiteConfig = {
             {
                 text: 'Get in Touch',
                 href: '/contact'
+            },
+            {
+                text: 'View Resume',
+                href: '/shahzad_resume.pdf',
+                target: '_blank'
             }
         ]
     },
