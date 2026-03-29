@@ -17,6 +17,11 @@ type Props = { page: CollectionEntry<'pages'> };
 const { page } = Astro.props;
 const { title, seo } = page.data;
 const { Content } = await render(page);
+
+// TODO: Remove this once the pages are implemented
+if (page.id !== 'contact') {
+    return Astro.redirect('/404', 404);
+}
 ---
 
 <BaseLayout title={seo?.title ?? title} description={seo?.description} image={seo?.image} showHeader={false}>
