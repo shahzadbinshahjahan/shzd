@@ -89,3 +89,8 @@ function formatCanonicalURL(url: string | URL) {
 {description && <meta name="twitter:description" content={description} />}
 {resolvedImage?.src && <meta name="twitter:image" content={resolvedImage.src} />}
 {resolvedImage?.alt && <meta name="twitter:image:alt" content={resolvedImage.alt} />}
+
+<!--Google search console tag-->
+<meta name="google-site-verification" content={siteConfig?.googleSearchConsoleTag} />
+<!--Bing search tag-->
+<meta name="msvalidate.01" content={siteConfig?.bingSearchTag} />

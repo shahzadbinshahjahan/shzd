@@ -32,6 +32,8 @@ export type Subscribe = {
 };
 
 export type SiteConfig = {
+    googleSearchConsoleTag?: string;
+    bingSearchTag?: string;
     website: string;
     avatar?: ImageInput;
     title: string;

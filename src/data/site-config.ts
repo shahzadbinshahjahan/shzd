@@ -1,6 +1,8 @@
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
+    googleSearchConsoleTag: 'ISv0mJTVN8Bk4ljEY6EB5VNsG6246n5hdGqPwkgQlJo',
+    bingSearchTag: '65D77A9B524E21931808D7AEC7C5453A',
     website: 'https://shahzadbinshahjahan.github.io',
     avatar: {
         src: '',
