@@ -1,76 +1,66 @@
-import avatar from '../assets/images/avatar.jpg';
-import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://shahzadbinshahjahan.github.io',
     avatar: {
-        src: avatar,
-        alt: 'Ethan Donovan'
+        src: '',
+        alt: 'Shahzad bin Shahjahan'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
+    title: 'Shahzad bin Shahjahan',
+    subtitle: 'Tea fueled Engineer',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/shzd.jpg',
+        alt: 'Shahzad bin Shahjahan'
     },
     headerNavLinks: [
         {
             text: 'Home',
             href: '/'
         },
-        {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
-    ],
-    footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
+        // {
+        //     text: 'Projects',
+        //     href: '/projects'
+        // },
+        // {
+        //     text: 'Blog',
+        //     href: '/blog'
+        // },
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
+        // {
+        //     text: 'Tags',
+        //     href: '/tags'
+        // }
+    ],
+    footerNavLinks: [
+        // {
+        //     text: 'About',
+        //     href: '/about'
+        // },
+        // {
+        //     text: 'Contact',
+        //     href: '/contact'
+        // }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Github',
+            href: 'https://github.com/shahzadbinshahjahan'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'LinkedIn',
+            href: 'https://linkedin.com/in/shzd'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Hi There!',
+        text: "I'm **Shahzad Bin Shahjahan**, a Software Engineer who loves building things, regardless of the platform. Currently building Web and Mobile applications (React, React Native), though my curiosity rarely stays in one place. I have been working on building ERP Systems with Frappe, solving real business problems, identifying business bottlenecks and finding solutions which genuninely helps the business and gives me the dopamine rush I need. Otherwise, I'm just reading a book or out on one of my motorcycles or enjoying a cup of **Tea**.",
         image: {
-            src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
+            src: "/shzd.jpg",
+            alt: 'Shahzad Posing xD'
         },
         actions: [
             {
