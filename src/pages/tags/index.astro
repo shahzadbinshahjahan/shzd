@@ -11,6 +11,9 @@ const tags = getAllTags(posts).sort((tagA, tagB) => {
     const postCountTagB = getPostsByTag(posts, tagB.id).length;
     return postCountTagB - postCountTagA;
 });
+
+// TODO: Remove this once the tags are implemented
+return Astro.redirect('/404', 404);
 ---
 
 <BaseLayout

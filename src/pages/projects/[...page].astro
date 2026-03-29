@@ -16,6 +16,9 @@ type Props = { page: Page<CollectionEntry<'projects'>> };
 
 const { page } = Astro.props;
 const portfolio = page.data;
+
+// TODO: Remove this once the projects are implemented
+return Astro.redirect('/404', 404);
 ---
 
 <BaseLayout title="Portfolio" description="Explore a diverse portfolio showcasing my passion and expertise" showHeader={false}>
